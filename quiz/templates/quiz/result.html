@@ -1,0 +1,7 @@
+
+<!-- quiz/templates/quiz/result.html -->
+<h1>Your Score: {{ score }}</h1>
+<p>You answered {{ score }} out of {{ questions|length }} correctly.</p>
+
+<a href="{% url 'quiz' %}">Try Again</a>
+
